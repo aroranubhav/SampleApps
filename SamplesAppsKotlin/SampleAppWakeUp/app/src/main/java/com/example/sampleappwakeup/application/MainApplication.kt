@@ -36,7 +36,6 @@ class MainApplication : Application(), MonitorNotifier {
     }
 
     fun getApplication() : MainApplication {
-        mainApplication = this
         return mainApplication
     }
 
@@ -70,7 +69,6 @@ class MainApplication : Application(), MonitorNotifier {
     }
 
     fun getBeconmanager() : BeaconManager {
-        //beaconManager = BeaconManager.getInstanceForApplication(applicationContext)
         return beaconManager
     }
 
